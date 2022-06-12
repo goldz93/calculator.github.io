@@ -1,0 +1,68 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+button {
+    border: 5px solid black;
+    height: 75px;
+    width: 75px;
+    margin-right: -4px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+  
+.calculator {
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 30px;
+    background-color: red;
+}
+
+.display {
+    position: relative;
+    width: none;
+    height: 100px;
+    text-align: right;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+  
+.display p {
+    position: relative;
+    right: 5px;
+    font-size: 50px;
+}
+  
+.buttons {
+    width: 300px;  
+}
+
+.digit:hover {
+    background-color: red;
+}
+
+.operator:hover {
+    background-color: blue;
+}
+  
+#zero {
+    width: 150px;
+}
+
+#AC:hover {
+    background-color: red
+}
+  
+#DEL:hover {
+    background-color: red
+}
+
+#percent:hover {
+    background-color: red;
+}
+  
